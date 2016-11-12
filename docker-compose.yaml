@@ -1,0 +1,7 @@
+version: "2"
+services:
+  rabbitmq:
+    image: richodemus/rpi-rabbitmq:latest
+    ports:
+      - "8080:15672"
+
